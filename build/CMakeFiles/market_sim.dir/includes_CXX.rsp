@@ -1,0 +1,1 @@
+-IC:/Users/Landorus/Desktop/market_sim/build/market_sim_autogen/include -IC:/Users/Landorus/Desktop/market_sim/include -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem "C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++" -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
