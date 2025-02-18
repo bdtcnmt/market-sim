@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     QObject::connect(&fetcher, &DataFetcher::dataFetched,
                      [](const QString &stockSymbol, const std::vector<StockDataPoint>& data) {
         qDebug() << "Data fetched for:" << stockSymbol;
+        qDebug() << "Number of data points:" << static_cast<int>(data.size());
         for (const auto &point : data) {
             qDebug() << point.timestamp.toString("yyyy-MM-dd HH:mm:ss")
                      << "->" << point.price;
