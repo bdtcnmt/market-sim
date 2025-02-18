@@ -1,11 +1,11 @@
 CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj: \
  C:\Users\Landorus\Desktop\market_sim\build\market_sim_autogen\mocs_compilation.cpp \
- C:\Users\Landorus\Desktop\market_sim\build\market_sim_autogen\6YEA5652QU/moc_MainWindow.cpp \
- C:/Users/Landorus/Desktop/market_sim/include/MainWindow.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
+ C:\Users\Landorus\Desktop\market_sim\build\market_sim_autogen\6YEA5652QU/moc_DataFetcher.cpp \
+ C:/Users/Landorus/Desktop/market_sim/include/DataFetcher.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qglobal.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -141,14 +141,6 @@ CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qversiontagging.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qwidget.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcompare.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcomparehelpers.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -225,8 +217,6 @@ CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj: \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/auto_ptr.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qchar.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstringview.h \
@@ -325,8 +315,90 @@ CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj: \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qmargins.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QDateTime \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcontiguouscache.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/climits \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qset.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qhash.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qvarlengtharray.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qnetworkrequest.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qhttpheaders.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QSharedDataPointer \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QUrl \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QVariant \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/q26numeric.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QList \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QSslConfiguration \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslconfiguration.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslsocket.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtcpsocket.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qabstractsocket.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qhostaddress.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslerror.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslcertificate.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcryptographichash.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qspan.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/q20iterator.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qssl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QFlags \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qflags.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QMetaType \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qmetatype.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkReply \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qnetworkreply.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QIODevice \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkRequest \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qnetworkrequest.h \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QSslError \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslerror.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\Landorus\Desktop\market_sim\build\market_sim_autogen\6YEA5652QU/moc_MainWindow.cpp \
+ C:/Users/Landorus/Desktop/market_sim/include/MainWindow.h \
+ C:/Qt/6.8.2/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
+ C:/Qt/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
+ C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
+ C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.8.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
+ C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qmargins.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qaction.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qkeysequence.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qicon.h \
@@ -338,28 +410,12 @@ CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qcolor.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qrgb.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qrgba64.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qpixelformat.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qtransform.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qpolygon.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qregion.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qspan.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
- C:/Qt/6.8.2/mingw_64/include/QtCore/q20iterator.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qline.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qvariant.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qtextstream.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qcontiguouscache.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/climits \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qsharedpointer.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qmap.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata_impl.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qset.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qhash.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qvarlengtharray.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qpalette.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qbrush.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qfont.h \
@@ -370,5 +426,4 @@ CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Users/Landorus/Desktop/market_sim/include/MarketSimulator.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qtmochelpers.h
+ C:/Users/Landorus/Desktop/market_sim/include/MarketSimulator.h

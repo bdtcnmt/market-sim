@@ -5,22 +5,22 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 
 # Tell CMake where to find the Qt6 configuration files.
-# This directory typically contains subdirectories like Qt6Core, Qt6Gui, Qt6Widgets, etc.
 set(CMAKE_PREFIX_PATH "C:/Qt/6.8.2/mingw_64/lib/cmake")
 
-# Find the Qt6 Widgets module
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+# Find necessary Qt6 modules.
+find_package(Qt6 REQUIRED COMPONENTS Widgets Network)
 
-# Add your executable target
-add_executable(market_sim
-    src/main.cpp
-    src/MainWindow.cpp
-    src/MarketSimulator.cpp
-    src/MathUtils.cpp
-    include/MainWindow.h
+# Automatically collect all .cpp and .h files.
+file(GLOB_RECURSE SOURCES
+    "${CMAKE_SOURCE_DIR}/src/*.cpp"
+    "${CMAKE_SOURCE_DIR}/include/*.h"
 )
 
+# Create the executable with all source files.
+add_executable(market_sim ${SOURCES})
+
+# Add include directories.
 target_include_directories(market_sim PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
-# Link the Qt6 Widgets library to your target
-target_link_libraries(market_sim Qt6::Widgets)
+# Link against the required Qt6 modules.
+target_link_libraries(market_sim Qt6::Widgets Qt6::Network)

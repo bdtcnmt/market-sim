@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "market_sim_autogen/timestamp" "custom" "market_sim_autogen/deps"
   "C:/Users/Landorus/Desktop/market_sim/build/market_sim_autogen/mocs_compilation.cpp" "CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/Landorus/Desktop/market_sim/src/DataFetcher.cpp" "CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj" "gcc" "CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj.d"
   "C:/Users/Landorus/Desktop/market_sim/src/MainWindow.cpp" "CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj" "gcc" "CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj.d"
   "C:/Users/Landorus/Desktop/market_sim/src/MarketSimulator.cpp" "CMakeFiles/market_sim.dir/src/MarketSimulator.cpp.obj" "gcc" "CMakeFiles/market_sim.dir/src/MarketSimulator.cpp.obj.d"
   "C:/Users/Landorus/Desktop/market_sim/src/MathUtils.cpp" "CMakeFiles/market_sim.dir/src/MathUtils.cpp.obj" "gcc" "CMakeFiles/market_sim.dir/src/MathUtils.cpp.obj.d"

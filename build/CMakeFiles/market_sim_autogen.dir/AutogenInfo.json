@@ -395,7 +395,37 @@
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Landorus/Desktop/market_sim",
 	"CROSS_CONFIG" : false,
@@ -404,9 +434,27 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/Landorus/Desktop/market_sim/include/DataFetcher.h",
+			"Mu",
+			"6YEA5652QU/moc_DataFetcher.cpp",
+			null
+		],
+		[
 			"C:/Users/Landorus/Desktop/market_sim/include/MainWindow.h",
 			"Mu",
 			"6YEA5652QU/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Landorus/Desktop/market_sim/include/MarketSimulator.h",
+			"Mu",
+			"6YEA5652QU/moc_MarketSimulator.cpp",
+			null
+		],
+		[
+			"C:/Users/Landorus/Desktop/market_sim/include/MathUtils.h",
+			"Mu",
+			"6YEA5652QU/moc_MathUtils.cpp",
 			null
 		]
 	],
@@ -418,6 +466,7 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
 		"QT_NO_DEBUG",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
@@ -442,6 +491,7 @@
 		"C:/Qt/6.8.2/mingw_64/include/QtCore",
 		"C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++",
 		"C:/Qt/6.8.2/mingw_64/include/QtGui",
+		"C:/Qt/6.8.2/mingw_64/include/QtNetwork",
 		"C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++",
 		"C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32",
 		"C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward",
@@ -482,6 +532,11 @@
 	"SETTINGS_FILE" : "C:/Users/Landorus/Desktop/market_sim/build/CMakeFiles/market_sim_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/Landorus/Desktop/market_sim/src/DataFetcher.cpp",
+			"Mu",
+			null
+		],
 		[ "C:/Users/Landorus/Desktop/market_sim/src/MainWindow.cpp", "Mu", null ],
 		[
 			"C:/Users/Landorus/Desktop/market_sim/src/MarketSimulator.cpp",

@@ -1,9 +1,10 @@
-CMakeFiles/market_sim.dir/src/main.cpp.obj: \
- C:\Users\Landorus\Desktop\market_sim\src\main.cpp \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/QApplication \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qapplication.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj: \
+ C:\Users\Landorus\Desktop\market_sim\src\DataFetcher.cpp \
+ C:/Users/Landorus/Desktop/market_sim/include/DataFetcher.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qglobal.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,13 +140,6 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qversiontagging.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qcoreapplication.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qchar.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcompare.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcomparehelpers.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -179,21 +173,15 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_heap.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tempbuf.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uniform_int_dist.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qstringview.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qbytearray.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qrefcount.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qtmetamacros.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qarraydata.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qpair.h \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qarraydatapointer.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qarraydataops.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qcontainertools_impl.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qxptype_traits.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstring \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iterator \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_raw_storage_iter.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/align.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bit \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unique_ptr.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iosfwd \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stringfwd.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/postypes.h \
@@ -204,18 +192,8 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stream_iterator.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/streambuf_iterator.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/streambuf \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/localefwd.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/locale.h \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/stdio.h \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/ctype.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ios_base.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_base.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocated_ptr.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/atomicity.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -233,6 +211,38 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
  C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/concurrence.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_atomic.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/auto_ptr.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qchar.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qstringview.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qbytearray.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qrefcount.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qarraydata.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qpair.h \
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qarraydatapointer.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qarraydataops.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcontainertools_impl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qxptype_traits.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstring \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iterator \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stream_iterator.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/streambuf_iterator.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/streambuf \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/localefwd.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/locale.h \
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ios_base.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_classes.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/char_traits.h \
@@ -251,19 +261,6 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/stdexcept \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/streambuf.tcc \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_raw_storage_iter.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/align.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bit \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unique_ptr.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_base.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocated_ptr.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/concurrence.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_atomic.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/auto_ptr.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/algorithm \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_algorithm_defs.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h \
@@ -283,27 +280,22 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstringbuilder.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstringconverter.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstringconverter_base.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qcoreevent.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qdeadlinetimer.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qelapsedtimer.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qmetatype.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qdatastream.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qscopedpointer.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qiodevicebase.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qfloat16.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qlist.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qhashfunctions.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/numeric \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_numeric.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_numeric_defs.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qmath.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qiterator.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qbytearraylist.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qstringlist.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qalgorithms.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qstringmatcher.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qscopedpointer.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qmetatype.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdatastream.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qiodevicebase.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qfloat16.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qmath.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qiterable.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qmetacontainer.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcontainerinfo.h \
@@ -316,16 +308,19 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tree.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_map.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_multimap.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qeventloop.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qiterator.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qbytearraylist.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qstringlist.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qstringmatcher.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qobject_impl.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qbindingstorage.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QDateTime \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcontiguouscache.h \
@@ -338,45 +333,8 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qvarlengtharray.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qpoint.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/q23utility.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qsize.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qmargins.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qcursor.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qpaintdevice.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qrect.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qcolor.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qrgb.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qrgba64.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qimage.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qpixelformat.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qtransform.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qpolygon.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qregion.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qspan.h \
- C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
- C:/Qt/6.8.2/mingw_64/include/QtCore/q20iterator.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qline.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qinputmethod.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qlocale.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qvariant.h \
- C:/Qt/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/QDebug \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
- C:/Users/Landorus/Desktop/market_sim/include/DataFetcher.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/QDateTime \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qdatetime.h \
- C:/Qt/6.8.2/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
@@ -405,6 +363,9 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslerror.h \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/qsslcertificate.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qcryptographichash.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qspan.h \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/q20iterator.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/qssl.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QFlags \
@@ -419,4 +380,21 @@ CMakeFiles/market_sim.dir/src/main.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkRequest \
  C:/Qt/6.8.2/mingw_64/include/QtNetwork/qnetworkrequest.h \
- C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkAccessManager
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
+ C:/Qt/6.8.2/mingw_64/include/QtNetwork/QNetworkRequest \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QUrlQuery \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qurlquery.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonDocument \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsondocument.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsonvalue.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcborvalue.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcborcommon.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/quuid.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qendian.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonObject \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsonobject.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonParseError \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h

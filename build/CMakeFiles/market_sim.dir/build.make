@@ -89,20 +89,20 @@ CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.s"
 	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market_sim\build\market_sim_autogen\mocs_compilation.cpp -o CMakeFiles\market_sim.dir\market_sim_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/market_sim.dir/src/main.cpp.obj: CMakeFiles/market_sim.dir/flags.make
-CMakeFiles/market_sim.dir/src/main.cpp.obj: CMakeFiles/market_sim.dir/includes_CXX.rsp
-CMakeFiles/market_sim.dir/src/main.cpp.obj: C:/Users/Landorus/Desktop/market_sim/src/main.cpp
-CMakeFiles/market_sim.dir/src/main.cpp.obj: CMakeFiles/market_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Landorus\Desktop\market_sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/market_sim.dir/src/main.cpp.obj"
-	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/market_sim.dir/src/main.cpp.obj -MF CMakeFiles\market_sim.dir\src\main.cpp.obj.d -o CMakeFiles\market_sim.dir\src\main.cpp.obj -c C:\Users\Landorus\Desktop\market_sim\src\main.cpp
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj: CMakeFiles/market_sim.dir/flags.make
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj: CMakeFiles/market_sim.dir/includes_CXX.rsp
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj: C:/Users/Landorus/Desktop/market_sim/src/DataFetcher.cpp
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj: CMakeFiles/market_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Landorus\Desktop\market_sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj -MF CMakeFiles\market_sim.dir\src\DataFetcher.cpp.obj.d -o CMakeFiles\market_sim.dir\src\DataFetcher.cpp.obj -c C:\Users\Landorus\Desktop\market_sim\src\DataFetcher.cpp
 
-CMakeFiles/market_sim.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/market_sim.dir/src/main.cpp.i"
-	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Landorus\Desktop\market_sim\src\main.cpp > CMakeFiles\market_sim.dir\src\main.cpp.i
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/market_sim.dir/src/DataFetcher.cpp.i"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Landorus\Desktop\market_sim\src\DataFetcher.cpp > CMakeFiles\market_sim.dir\src\DataFetcher.cpp.i
 
-CMakeFiles/market_sim.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/market_sim.dir/src/main.cpp.s"
-	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market_sim\src\main.cpp -o CMakeFiles\market_sim.dir\src\main.cpp.s
+CMakeFiles/market_sim.dir/src/DataFetcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/market_sim.dir/src/DataFetcher.cpp.s"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market_sim\src\DataFetcher.cpp -o CMakeFiles\market_sim.dir\src\DataFetcher.cpp.s
 
 CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj: CMakeFiles/market_sim.dir/flags.make
 CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj: CMakeFiles/market_sim.dir/includes_CXX.rsp
@@ -149,30 +149,48 @@ CMakeFiles/market_sim.dir/src/MathUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/market_sim.dir/src/MathUtils.cpp.s"
 	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market_sim\src\MathUtils.cpp -o CMakeFiles\market_sim.dir\src\MathUtils.cpp.s
 
+CMakeFiles/market_sim.dir/src/main.cpp.obj: CMakeFiles/market_sim.dir/flags.make
+CMakeFiles/market_sim.dir/src/main.cpp.obj: CMakeFiles/market_sim.dir/includes_CXX.rsp
+CMakeFiles/market_sim.dir/src/main.cpp.obj: C:/Users/Landorus/Desktop/market_sim/src/main.cpp
+CMakeFiles/market_sim.dir/src/main.cpp.obj: CMakeFiles/market_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Landorus\Desktop\market_sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/market_sim.dir/src/main.cpp.obj"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/market_sim.dir/src/main.cpp.obj -MF CMakeFiles\market_sim.dir\src\main.cpp.obj.d -o CMakeFiles\market_sim.dir\src\main.cpp.obj -c C:\Users\Landorus\Desktop\market_sim\src\main.cpp
+
+CMakeFiles/market_sim.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/market_sim.dir/src/main.cpp.i"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Landorus\Desktop\market_sim\src\main.cpp > CMakeFiles\market_sim.dir\src\main.cpp.i
+
+CMakeFiles/market_sim.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/market_sim.dir/src/main.cpp.s"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market_sim\src\main.cpp -o CMakeFiles\market_sim.dir\src\main.cpp.s
+
 # Object files for target market_sim
 market_sim_OBJECTS = \
 "CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/market_sim.dir/src/main.cpp.obj" \
+"CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj" \
 "CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj" \
 "CMakeFiles/market_sim.dir/src/MarketSimulator.cpp.obj" \
-"CMakeFiles/market_sim.dir/src/MathUtils.cpp.obj"
+"CMakeFiles/market_sim.dir/src/MathUtils.cpp.obj" \
+"CMakeFiles/market_sim.dir/src/main.cpp.obj"
 
 # External object files for target market_sim
 market_sim_EXTERNAL_OBJECTS =
 
 market_sim.exe: CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj
-market_sim.exe: CMakeFiles/market_sim.dir/src/main.cpp.obj
+market_sim.exe: CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj
 market_sim.exe: CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj
 market_sim.exe: CMakeFiles/market_sim.dir/src/MarketSimulator.cpp.obj
 market_sim.exe: CMakeFiles/market_sim.dir/src/MathUtils.cpp.obj
+market_sim.exe: CMakeFiles/market_sim.dir/src/main.cpp.obj
 market_sim.exe: CMakeFiles/market_sim.dir/build.make
 market_sim.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Widgets.a
+market_sim.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Network.a
 market_sim.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a
 market_sim.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Core.a
 market_sim.exe: CMakeFiles/market_sim.dir/linkLibs.rsp
 market_sim.exe: CMakeFiles/market_sim.dir/objects1.rsp
 market_sim.exe: CMakeFiles/market_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Landorus\Desktop\market_sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable market_sim.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Landorus\Desktop\market_sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable market_sim.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\market_sim.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

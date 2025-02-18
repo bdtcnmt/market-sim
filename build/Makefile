@@ -178,6 +178,30 @@ market_sim_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_sim.dir\build.make CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.s
 .PHONY : market_sim_autogen/mocs_compilation.cpp.s
 
+src/DataFetcher.obj: src/DataFetcher.cpp.obj
+.PHONY : src/DataFetcher.obj
+
+# target to build an object file
+src/DataFetcher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_sim.dir\build.make CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj
+.PHONY : src/DataFetcher.cpp.obj
+
+src/DataFetcher.i: src/DataFetcher.cpp.i
+.PHONY : src/DataFetcher.i
+
+# target to preprocess a source file
+src/DataFetcher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_sim.dir\build.make CMakeFiles/market_sim.dir/src/DataFetcher.cpp.i
+.PHONY : src/DataFetcher.cpp.i
+
+src/DataFetcher.s: src/DataFetcher.cpp.s
+.PHONY : src/DataFetcher.s
+
+# target to generate assembly for a file
+src/DataFetcher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_sim.dir\build.make CMakeFiles/market_sim.dir/src/DataFetcher.cpp.s
+.PHONY : src/DataFetcher.cpp.s
+
 src/MainWindow.obj: src/MainWindow.cpp.obj
 .PHONY : src/MainWindow.obj
 
@@ -288,6 +312,9 @@ help:
 	@echo ... market_sim_autogen/mocs_compilation.obj
 	@echo ... market_sim_autogen/mocs_compilation.i
 	@echo ... market_sim_autogen/mocs_compilation.s
+	@echo ... src/DataFetcher.obj
+	@echo ... src/DataFetcher.i
+	@echo ... src/DataFetcher.s
 	@echo ... src/MainWindow.obj
 	@echo ... src/MainWindow.i
 	@echo ... src/MainWindow.s

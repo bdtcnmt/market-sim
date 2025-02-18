@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "market_sim_autogen"
   "CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/market_sim.dir/market_sim_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj"
+  "CMakeFiles/market_sim.dir/src/DataFetcher.cpp.obj.d"
   "CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj"
   "CMakeFiles/market_sim.dir/src/MainWindow.cpp.obj.d"
   "CMakeFiles/market_sim.dir/src/MarketSimulator.cpp.obj"
