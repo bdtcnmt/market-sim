@@ -5,18 +5,18 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/msys64/mingw64/include",
-                "${workspaceFolder}/external/nlohmann_json/include"
+                "${workspaceFolder}/external/nlohmann_json"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}/**",
                     "C:/msys64/mingw64/include",
-                    "${workspaceFolder}/external/nlohmann_json/include"
+                    "${workspaceFolder}/external/nlohmann_json"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "defines": [],
-            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"

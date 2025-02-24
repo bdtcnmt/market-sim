@@ -1,1 +1,1 @@
--I"C:/Users/Landorus/Desktop/market-sim/include" -I"C:/Users/Landorus/Desktop/market-sim/external/nlohmann_json" -I"C:/Users/Landorus/Desktop/market-sim/external/libcurl/include"
+-I"C:/Users/phini/Desktop/market-sim/include" -I"C:/Users/phini/Desktop/market-sim/external/nlohmann_json/include" -IC:/msys64/mingw64/include

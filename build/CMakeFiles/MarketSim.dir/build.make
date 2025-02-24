@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Landorus\Desktop\market-sim
+CMAKE_SOURCE_DIR = C:\Users\phini\Desktop\market-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Landorus\Desktop\market-sim\build
+CMAKE_BINARY_DIR = C:\Users\phini\Desktop\market-sim\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MarketSim.dir/depend.make
@@ -73,48 +73,48 @@ CMakeFiles/MarketSim.dir/codegen:
 
 CMakeFiles/MarketSim.dir/src/main.cpp.obj: CMakeFiles/MarketSim.dir/flags.make
 CMakeFiles/MarketSim.dir/src/main.cpp.obj: CMakeFiles/MarketSim.dir/includes_CXX.rsp
-CMakeFiles/MarketSim.dir/src/main.cpp.obj: C:/Users/Landorus/Desktop/market-sim/src/main.cpp
+CMakeFiles/MarketSim.dir/src/main.cpp.obj: C:/Users/phini/Desktop/market-sim/src/main.cpp
 CMakeFiles/MarketSim.dir/src/main.cpp.obj: CMakeFiles/MarketSim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MarketSim.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarketSim.dir/src/main.cpp.obj -MF CMakeFiles\MarketSim.dir\src\main.cpp.obj.d -o CMakeFiles\MarketSim.dir\src\main.cpp.obj -c C:\Users\Landorus\Desktop\market-sim\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MarketSim.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarketSim.dir/src/main.cpp.obj -MF CMakeFiles\MarketSim.dir\src\main.cpp.obj.d -o CMakeFiles\MarketSim.dir\src\main.cpp.obj -c C:\Users\phini\Desktop\market-sim\src\main.cpp
 
 CMakeFiles/MarketSim.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MarketSim.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Landorus\Desktop\market-sim\src\main.cpp > CMakeFiles\MarketSim.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\market-sim\src\main.cpp > CMakeFiles\MarketSim.dir\src\main.cpp.i
 
 CMakeFiles/MarketSim.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MarketSim.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market-sim\src\main.cpp -o CMakeFiles\MarketSim.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\market-sim\src\main.cpp -o CMakeFiles\MarketSim.dir\src\main.cpp.s
 
 CMakeFiles/MarketSim.dir/src/api.cpp.obj: CMakeFiles/MarketSim.dir/flags.make
 CMakeFiles/MarketSim.dir/src/api.cpp.obj: CMakeFiles/MarketSim.dir/includes_CXX.rsp
-CMakeFiles/MarketSim.dir/src/api.cpp.obj: C:/Users/Landorus/Desktop/market-sim/src/api.cpp
+CMakeFiles/MarketSim.dir/src/api.cpp.obj: C:/Users/phini/Desktop/market-sim/src/api.cpp
 CMakeFiles/MarketSim.dir/src/api.cpp.obj: CMakeFiles/MarketSim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MarketSim.dir/src/api.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarketSim.dir/src/api.cpp.obj -MF CMakeFiles\MarketSim.dir\src\api.cpp.obj.d -o CMakeFiles\MarketSim.dir\src\api.cpp.obj -c C:\Users\Landorus\Desktop\market-sim\src\api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MarketSim.dir/src/api.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarketSim.dir/src/api.cpp.obj -MF CMakeFiles\MarketSim.dir\src\api.cpp.obj.d -o CMakeFiles\MarketSim.dir\src\api.cpp.obj -c C:\Users\phini\Desktop\market-sim\src\api.cpp
 
 CMakeFiles/MarketSim.dir/src/api.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MarketSim.dir/src/api.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Landorus\Desktop\market-sim\src\api.cpp > CMakeFiles\MarketSim.dir\src\api.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\market-sim\src\api.cpp > CMakeFiles\MarketSim.dir\src\api.cpp.i
 
 CMakeFiles/MarketSim.dir/src/api.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MarketSim.dir/src/api.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market-sim\src\api.cpp -o CMakeFiles\MarketSim.dir\src\api.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\market-sim\src\api.cpp -o CMakeFiles\MarketSim.dir\src\api.cpp.s
 
 CMakeFiles/MarketSim.dir/src/display.cpp.obj: CMakeFiles/MarketSim.dir/flags.make
 CMakeFiles/MarketSim.dir/src/display.cpp.obj: CMakeFiles/MarketSim.dir/includes_CXX.rsp
-CMakeFiles/MarketSim.dir/src/display.cpp.obj: C:/Users/Landorus/Desktop/market-sim/src/display.cpp
+CMakeFiles/MarketSim.dir/src/display.cpp.obj: C:/Users/phini/Desktop/market-sim/src/display.cpp
 CMakeFiles/MarketSim.dir/src/display.cpp.obj: CMakeFiles/MarketSim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MarketSim.dir/src/display.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarketSim.dir/src/display.cpp.obj -MF CMakeFiles\MarketSim.dir\src\display.cpp.obj.d -o CMakeFiles\MarketSim.dir\src\display.cpp.obj -c C:\Users\Landorus\Desktop\market-sim\src\display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MarketSim.dir/src/display.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarketSim.dir/src/display.cpp.obj -MF CMakeFiles\MarketSim.dir\src\display.cpp.obj.d -o CMakeFiles\MarketSim.dir\src\display.cpp.obj -c C:\Users\phini\Desktop\market-sim\src\display.cpp
 
 CMakeFiles/MarketSim.dir/src/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MarketSim.dir/src/display.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Landorus\Desktop\market-sim\src\display.cpp > CMakeFiles\MarketSim.dir\src\display.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\market-sim\src\display.cpp > CMakeFiles\MarketSim.dir\src\display.cpp.i
 
 CMakeFiles/MarketSim.dir/src/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MarketSim.dir/src/display.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Landorus\Desktop\market-sim\src\display.cpp -o CMakeFiles\MarketSim.dir\src\display.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\market-sim\src\display.cpp -o CMakeFiles\MarketSim.dir\src\display.cpp.s
 
 # Object files for target MarketSim
 MarketSim_OBJECTS = \
@@ -129,11 +129,11 @@ MarketSim.exe: CMakeFiles/MarketSim.dir/src/main.cpp.obj
 MarketSim.exe: CMakeFiles/MarketSim.dir/src/api.cpp.obj
 MarketSim.exe: CMakeFiles/MarketSim.dir/src/display.cpp.obj
 MarketSim.exe: CMakeFiles/MarketSim.dir/build.make
-MarketSim.exe: C:/msys64/mingw64/lib/libcurl.dll.a
+MarketSim.exe: C:/msys64/ucrt64/lib/libcurl.dll.a
 MarketSim.exe: CMakeFiles/MarketSim.dir/linkLibs.rsp
 MarketSim.exe: CMakeFiles/MarketSim.dir/objects1.rsp
 MarketSim.exe: CMakeFiles/MarketSim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MarketSim.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MarketSim.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MarketSim.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -145,6 +145,6 @@ CMakeFiles/MarketSim.dir/clean:
 .PHONY : CMakeFiles/MarketSim.dir/clean
 
 CMakeFiles/MarketSim.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Landorus\Desktop\market-sim C:\Users\Landorus\Desktop\market-sim C:\Users\Landorus\Desktop\market-sim\build C:\Users\Landorus\Desktop\market-sim\build C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles\MarketSim.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\phini\Desktop\market-sim C:\Users\phini\Desktop\market-sim C:\Users\phini\Desktop\market-sim\build C:\Users\phini\Desktop\market-sim\build C:\Users\phini\Desktop\market-sim\build\CMakeFiles\MarketSim.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MarketSim.dir/depend
 
