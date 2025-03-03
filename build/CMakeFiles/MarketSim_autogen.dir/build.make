@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\phini\Desktop\market-sim
+CMAKE_SOURCE_DIR = C:\Users\Landorus\Desktop\market-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\phini\Desktop\market-sim\build
+CMAKE_BINARY_DIR = C:\Users\Landorus\Desktop\market-sim\build
 
 # Utility rule file for MarketSim_autogen.
 
@@ -69,9 +69,9 @@ CMakeFiles/MarketSim_autogen: MarketSim_autogen/timestamp
 
 MarketSim_autogen/timestamp: C:/Qt/6.8.2/mingw_64/bin/moc.exe
 MarketSim_autogen/timestamp: CMakeFiles/MarketSim_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MarketSim"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/phini/Desktop/market-sim/build/CMakeFiles/MarketSim_autogen.dir/AutogenInfo.json ""
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/phini/Desktop/market-sim/build/MarketSim_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MarketSim"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Landorus/Desktop/market-sim/build/CMakeFiles/MarketSim_autogen.dir/AutogenInfo.json ""
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Landorus/Desktop/market-sim/build/MarketSim_autogen/timestamp
 
 CMakeFiles/MarketSim_autogen.dir/codegen:
 .PHONY : CMakeFiles/MarketSim_autogen.dir/codegen
@@ -90,6 +90,6 @@ CMakeFiles/MarketSim_autogen.dir/clean:
 .PHONY : CMakeFiles/MarketSim_autogen.dir/clean
 
 CMakeFiles/MarketSim_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\phini\Desktop\market-sim C:\Users\phini\Desktop\market-sim C:\Users\phini\Desktop\market-sim\build C:\Users\phini\Desktop\market-sim\build C:\Users\phini\Desktop\market-sim\build\CMakeFiles\MarketSim_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Landorus\Desktop\market-sim C:\Users\Landorus\Desktop\market-sim C:\Users\Landorus\Desktop\market-sim\build C:\Users\Landorus\Desktop\market-sim\build C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles\MarketSim_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MarketSim_autogen.dir/depend
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\phini\Desktop\market-sim
+CMAKE_SOURCE_DIR = C:\Users\Landorus\Desktop\market-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\phini\Desktop\market-sim\build
+CMAKE_BINARY_DIR = C:\Users\Landorus\Desktop\market-sim\build
 
 # Utility rule file for MarketSim_autogen_timestamp_deps.
 
@@ -80,6 +80,6 @@ CMakeFiles/MarketSim_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/MarketSim_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/MarketSim_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\phini\Desktop\market-sim C:\Users\phini\Desktop\market-sim C:\Users\phini\Desktop\market-sim\build C:\Users\phini\Desktop\market-sim\build C:\Users\phini\Desktop\market-sim\build\CMakeFiles\MarketSim_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Landorus\Desktop\market-sim C:\Users\Landorus\Desktop\market-sim C:\Users\Landorus\Desktop\market-sim\build C:\Users\Landorus\Desktop\market-sim\build C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles\MarketSim_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MarketSim_autogen_timestamp_deps.dir/depend
 

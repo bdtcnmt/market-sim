@@ -1,28 +1,52 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
+import QtQuick
 
-ApplicationWindow {
-    id: window
+Window {
+    id: root
+
+    width: 640
+    height: 480
     visible: true
-    x: 100; y: 100
-    width: 400
-    height: 500
-    title: "Test Window"
+    title: qsTr("Hello World")
 
-    Component.onCompleted: {
-        console.log("Test Window loaded successfully")
-    }
-    Component.onDestruction: {
-        console.log("Test Window is being destroyed")
-    }
+    Rectangle {
 
-    Timer {
-        interval: 1000000  // Keep the window open for debugging
-        running: true
-    }
+        property color baseColor: "red"
 
-    Text {
-        anchors.centerIn: parent
-        text: "Hello, World!"
+        anchors {
+            bottom: parent.verticalCenter
+            horizontalCenter: parent.horizontalCenter
+            bottomMargin: 20
+        }
+
+        width: 150
+        height: 50
+
+        color: if (buttonMouseArea1.containsPress) {
+                   return Qt.darker(baseColor)
+               } else if (buttonMouseArea1.containsMouse) {
+                       return Qt.lighter(baseColor)
+               } else {
+                   return baseColor
+               }
+
+        Text {
+            id: buttonText1
+
+            anchors.centerIn: parent
+
+            text: "CLICK ME!!"
+        }
+
+        MouseArea {
+            id: buttonMouseArea1
+
+            anchors.fill: parent
+
+            hoverEnabled: true
+
+            onClicked: {
+                console.log("I AM CLICKED")
+            }
+        }
     }
 }

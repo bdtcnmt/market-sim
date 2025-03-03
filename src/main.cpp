@@ -8,18 +8,8 @@
 // Function to retrieve the API key using QSettings.
 QString getApiKey()
 {
-    // The organization and application name can be changed as needed.
-    QSettings settings("YourCompany", "StockSimulator");
-    
-    // Retrieve the API key, using an empty string as the default.
-    QString apiKey = settings.value("apiKey", "").toString();
-    
-    if(apiKey.isEmpty()){
-        qWarning() << "API key not found in settings. Using default key.";
-        // Set a default key. Replace this with your actual default or prompt the user later.
-        apiKey = "Z3LX94WG4A72PVHC";
-        settings.setValue("apiKey", apiKey);
-    }
+    // Retrieve the API key
+    QString apiKey = "Z3LX94WG4A72PVHC";
     
     return apiKey;
 }
@@ -48,7 +38,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("defaultApiKey", apiKey);
 
     // Load the QML interface from the resource system.
-    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/qml/Main.qml")));
     if (engine.rootObjects().isEmpty()) {
         qCritical() << "Failed to load QML";
         return -1;

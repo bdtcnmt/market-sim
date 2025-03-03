@@ -1,5 +1,5 @@
 CMakeFiles/MarketSim.dir/src/main.cpp.obj: \
- C:\Users\phini\Desktop\market-sim\src\main.cpp \
+ C:\Users\Landorus\Desktop\market-sim\src\main.cpp \
  C:/Qt/6.8.2/mingw_64/include/QtGui/QGuiApplication \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
@@ -389,7 +389,7 @@ CMakeFiles/MarketSim.dir/src/main.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qsettings.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
- C:/Users/phini/Desktop/market-sim/include/DataFetcher.h \
+ C:/Users/Landorus/Desktop/market-sim/include/DataFetcher.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
