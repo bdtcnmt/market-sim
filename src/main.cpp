@@ -1,30 +1,64 @@
-#include <iostream>         // Allows you to use std::cout and std::endl for output.
-#include <string>           // Provides the std::string type.
-#include "api.h"            // Declares the functions for fetching data from the stock API.
-#include "display.h"        // Declares the functions for parsing and displaying the stock data.
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
+#include <QQmlContext>
+#include <QSettings>
+#include <QDebug>
+#include "DataFetcher.h"
 
-int main() {
-    // Define the stock symbol, interval, and your API key.
-    // std::string symbol = "AAPL";
-    // std::string interval = "1min";
-    std::string symbol;
-    std::string interval;
-    std::string apiKey = "Z3LX94WG4A72PVHC";
+// Function to retrieve the API key using QSettings.
+QString getApiKey()
+{
+    // The organization and application name can be changed as needed.
+    QSettings settings("YourCompany", "StockSimulator");
+    
+    // Retrieve the API key, using an empty string as the default.
+    QString apiKey = settings.value("apiKey", "").toString();
+    
+    if(apiKey.isEmpty()){
+        qWarning() << "API key not found in settings. Using default key.";
+        // Set a default key. Replace this with your actual default or prompt the user later.
+        apiKey = "Z3LX94WG4A72PVHC";
+        settings.setValue("apiKey", apiKey);
+    }
+    
+    return apiKey;
+}
 
-    // Prompt the user to enter a stock symbol
-    std::cout << "Enter a stock symbol: ";
-    std::cin >> symbol;
+int main(int argc, char *argv[])
+{
+    // Initialize Qt.
+    QGuiApplication app(argc, argv);
+    // Create QML engine to load and run the QML interface.
+    QQmlApplicationEngine engine;
+    
+    // Add the import path to the QML engine.
+    QStringList importPaths = engine.importPathList();
+    importPaths << "C:/Qt/6.8.2/mingw_64/qml";
+    engine.setImportPathList(importPaths);
+    
+    // Create an instance of the DataFetcher class which contains the logic for fetching data from the API.
+    DataFetcher dataFetcher;
 
-    // Prompt the user to enter an interval
-    std::cout << "Enter a timeframe (e.g., 1min, 5min, 15min, 30min, 60min): ";
-    std::cin >> interval;
+    // Retrieve the API key from settings.
+    QString apiKey = getApiKey();
 
-    // Fetch stock data from the API
-    std::string data = fetchStockData(symbol, interval, apiKey);
+    // Expose the DataFetcher instance and the default API key to QML.
+    // These lines make C++ objects and data available to QML as global properties.
+    engine.rootContext()->setContextProperty("dataFetcher", &dataFetcher);
+    engine.rootContext()->setContextProperty("defaultApiKey", apiKey);
 
-    // Display the stock data
-    displayStockPrice(data);
+    // Load the QML interface from the resource system.
+    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    if (engine.rootObjects().isEmpty()) {
+        qCritical() << "Failed to load QML";
+        return -1;
+    }
 
-    // Return 0 to indicate the program ended successfully.
-    return 0;
+    // Retain a reference to the root object
+    // Without this reference, sometimes the engine might let go of the 
+    //root object if there are no explicit references, causing the window to close immediately.
+    QObject *rootObject = engine.rootObjects().first();
+    qDebug() << "Root object retained:" << rootObject;
+
+    return app.exec();
 }

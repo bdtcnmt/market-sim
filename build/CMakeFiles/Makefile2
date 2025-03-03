@@ -75,21 +75,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/MarketSim.dir/clean
+clean: CMakeFiles/MarketSim_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/MarketSim_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MarketSim.dir
 
 # All Build rule for target.
-CMakeFiles/MarketSim.dir/all:
+CMakeFiles/MarketSim.dir/all: CMakeFiles/MarketSim_autogen.dir/all
+CMakeFiles/MarketSim.dir/all: CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=1,2,3,4 "Built target MarketSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MarketSim"
 .PHONY : CMakeFiles/MarketSim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MarketSim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MarketSim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 0
 .PHONY : CMakeFiles/MarketSim.dir/rule
@@ -99,15 +102,79 @@ MarketSim: CMakeFiles/MarketSim.dir/rule
 .PHONY : MarketSim
 
 # codegen rule for target.
-CMakeFiles/MarketSim.dir/codegen:
+CMakeFiles/MarketSim.dir/codegen: CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target MarketSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target MarketSim"
 .PHONY : CMakeFiles/MarketSim.dir/codegen
 
 # clean rule for target.
 CMakeFiles/MarketSim.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/clean
 .PHONY : CMakeFiles/MarketSim.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MarketSim_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen_timestamp_deps.dir\build.make CMakeFiles/MarketSim_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen_timestamp_deps.dir\build.make CMakeFiles/MarketSim_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num= "Built target MarketSim_autogen_timestamp_deps"
+.PHONY : CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MarketSim_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 0
+.PHONY : CMakeFiles/MarketSim_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+MarketSim_autogen_timestamp_deps: CMakeFiles/MarketSim_autogen_timestamp_deps.dir/rule
+.PHONY : MarketSim_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/MarketSim_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen_timestamp_deps.dir\build.make CMakeFiles/MarketSim_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num= "Finished codegen for target MarketSim_autogen_timestamp_deps"
+.PHONY : CMakeFiles/MarketSim_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/MarketSim_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen_timestamp_deps.dir\build.make CMakeFiles/MarketSim_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/MarketSim_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MarketSim_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/MarketSim_autogen.dir/all: CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen.dir\build.make CMakeFiles/MarketSim_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen.dir\build.make CMakeFiles/MarketSim_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=9 "Built target MarketSim_autogen"
+.PHONY : CMakeFiles/MarketSim_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MarketSim_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MarketSim_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 0
+.PHONY : CMakeFiles/MarketSim_autogen.dir/rule
+
+# Convenience name for target.
+MarketSim_autogen: CMakeFiles/MarketSim_autogen.dir/rule
+.PHONY : MarketSim_autogen
+
+# codegen rule for target.
+CMakeFiles/MarketSim_autogen.dir/codegen: CMakeFiles/MarketSim_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen.dir\build.make CMakeFiles/MarketSim_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\market-sim\build\CMakeFiles --progress-num=9 "Finished codegen for target MarketSim_autogen"
+.PHONY : CMakeFiles/MarketSim_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/MarketSim_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen.dir\build.make CMakeFiles/MarketSim_autogen.dir/clean
+.PHONY : CMakeFiles/MarketSim_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

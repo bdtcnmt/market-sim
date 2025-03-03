@@ -5,18 +5,25 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/msys64/mingw64/include",
-                "${workspaceFolder}/external/nlohmann_json"
+                "${workspaceFolder}/external/nlohmann_json/include",
+                "C:/Qt/6.8.2/mingw_64/include",
+                "C:/Qt/6.8.2/mingw_64/include/QtCore",
+                "C:/Qt/6.8.2/mingw_64/include/QtGui",
+                "C:/Qt/6.8.2/mingw_64/include/QtWidgets",
+                "C:/Qt/6.8.2/mingw_64/include/QtQml",
+                "C:/Qt/6.8.2/mingw_64/include/QtQuick"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}/**",
                     "C:/msys64/mingw64/include",
-                    "${workspaceFolder}/external/nlohmann_json"
+                    "${workspaceFolder}/external/nlohmann_json",
+                    "C:/Qt/6.8.2/mingw_64/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "defines": [],
-            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"

@@ -128,6 +128,104 @@ MarketSim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/build
 .PHONY : MarketSim/fast
 
+#=============================================================================
+# Target rules for targets named MarketSim_autogen_timestamp_deps
+
+# Build rule for target.
+MarketSim_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MarketSim_autogen_timestamp_deps
+.PHONY : MarketSim_autogen_timestamp_deps
+
+# fast build rule for target.
+MarketSim_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen_timestamp_deps.dir\build.make CMakeFiles/MarketSim_autogen_timestamp_deps.dir/build
+.PHONY : MarketSim_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named MarketSim_autogen
+
+# Build rule for target.
+MarketSim_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MarketSim_autogen
+.PHONY : MarketSim_autogen
+
+# fast build rule for target.
+MarketSim_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim_autogen.dir\build.make CMakeFiles/MarketSim_autogen.dir/build
+.PHONY : MarketSim_autogen/fast
+
+MarketSim_autogen/EWIEGA46WW/qrc_resources.obj: MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : MarketSim_autogen/EWIEGA46WW/qrc_resources.obj
+
+# target to build an object file
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+
+MarketSim_autogen/EWIEGA46WW/qrc_resources.i: MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : MarketSim_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+MarketSim_autogen/EWIEGA46WW/qrc_resources.s: MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : MarketSim_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
+MarketSim_autogen/mocs_compilation.obj: MarketSim_autogen/mocs_compilation.cpp.obj
+.PHONY : MarketSim_autogen/mocs_compilation.obj
+
+# target to build an object file
+MarketSim_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj
+.PHONY : MarketSim_autogen/mocs_compilation.cpp.obj
+
+MarketSim_autogen/mocs_compilation.i: MarketSim_autogen/mocs_compilation.cpp.i
+.PHONY : MarketSim_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+MarketSim_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.i
+.PHONY : MarketSim_autogen/mocs_compilation.cpp.i
+
+MarketSim_autogen/mocs_compilation.s: MarketSim_autogen/mocs_compilation.cpp.s
+.PHONY : MarketSim_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+MarketSim_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.s
+.PHONY : MarketSim_autogen/mocs_compilation.cpp.s
+
+src/DataFetcher.obj: src/DataFetcher.cpp.obj
+.PHONY : src/DataFetcher.obj
+
+# target to build an object file
+src/DataFetcher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.obj
+.PHONY : src/DataFetcher.cpp.obj
+
+src/DataFetcher.i: src/DataFetcher.cpp.i
+.PHONY : src/DataFetcher.i
+
+# target to preprocess a source file
+src/DataFetcher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.i
+.PHONY : src/DataFetcher.cpp.i
+
+src/DataFetcher.s: src/DataFetcher.cpp.s
+.PHONY : src/DataFetcher.s
+
+# target to generate assembly for a file
+src/DataFetcher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.s
+.PHONY : src/DataFetcher.cpp.s
+
 src/api.obj: src/api.cpp.obj
 .PHONY : src/api.obj
 
@@ -151,30 +249,6 @@ src/api.s: src/api.cpp.s
 src/api.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/api.cpp.s
 .PHONY : src/api.cpp.s
-
-src/display.obj: src/display.cpp.obj
-.PHONY : src/display.obj
-
-# target to build an object file
-src/display.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/display.cpp.obj
-.PHONY : src/display.cpp.obj
-
-src/display.i: src/display.cpp.i
-.PHONY : src/display.i
-
-# target to preprocess a source file
-src/display.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/display.cpp.i
-.PHONY : src/display.cpp.i
-
-src/display.s: src/display.cpp.s
-.PHONY : src/display.s
-
-# target to generate assembly for a file
-src/display.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/display.cpp.s
-.PHONY : src/display.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -208,13 +282,21 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... MarketSim_autogen
+	@echo ... MarketSim_autogen_timestamp_deps
 	@echo ... MarketSim
+	@echo ... MarketSim_autogen/EWIEGA46WW/qrc_resources.obj
+	@echo ... MarketSim_autogen/EWIEGA46WW/qrc_resources.i
+	@echo ... MarketSim_autogen/EWIEGA46WW/qrc_resources.s
+	@echo ... MarketSim_autogen/mocs_compilation.obj
+	@echo ... MarketSim_autogen/mocs_compilation.i
+	@echo ... MarketSim_autogen/mocs_compilation.s
+	@echo ... src/DataFetcher.obj
+	@echo ... src/DataFetcher.i
+	@echo ... src/DataFetcher.s
 	@echo ... src/api.obj
 	@echo ... src/api.i
 	@echo ... src/api.s
-	@echo ... src/display.obj
-	@echo ... src/display.i
-	@echo ... src/display.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
