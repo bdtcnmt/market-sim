@@ -7,7 +7,15 @@
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "MinGW Makefiles",
 	"INCLUDE_DIR" : "C:/Users/Landorus/Desktop/market-sim/build/MarketSim_autogen/include",
-	"INPUTS" : [ "C:/Users/Landorus/Desktop/market-sim/qml/Main.qml" ],
+	"INPUTS" : 
+	[
+		"C:/Users/Landorus/Desktop/market-sim/qml/Main.qml",
+		"C:/Users/Landorus/Desktop/market-sim/qml/MainWindow.qml",
+		"C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListSimulator.qml",
+		"C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListModel.qml",
+		"C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/qmldir",
+		"C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/Constants.qml"
+	],
 	"LOCK_FILE" : "C:/Users/Landorus/Desktop/market-sim/build/CMakeFiles/MarketSim_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],

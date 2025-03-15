@@ -77,6 +77,11 @@ MarketSim_autogen/timestamp: CMakeFiles/MarketSim.dir/compiler_depend.ts
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/resources.qrc
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/MarketSim_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/Main.qml
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/MainWindow.qml
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListSimulator.qml
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListModel.qml
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/qmldir
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/Constants.qml
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/6.8.2/mingw_64/bin/rcc.exe
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/6.8.2/mingw_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"

@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     // Create QML engine to load and run the QML interface.
     QQmlApplicationEngine engine;
+
+    engine.addImportPath("qrc:/qml");
     
     // Add the import path to the QML engine.
     QStringList importPaths = engine.importPathList();

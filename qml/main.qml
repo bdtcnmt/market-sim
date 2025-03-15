@@ -1,52 +1,17 @@
 import QtQuick
+import QtQuick.Window
+import qml
 
 Window {
-    id: root
-
-    width: 640
-    height: 480
+    id: window
     visible: true
-    title: qsTr("Hello World")
+    title: "UntitledProject5"
 
-    Rectangle {
+    Component.onCompleted: window.showMaximized()
 
-        property color baseColor: "red"
-
-        anchors {
-            bottom: parent.verticalCenter
-            horizontalCenter: parent.horizontalCenter
-            bottomMargin: 20
-        }
-
-        width: 150
-        height: 50
-
-        color: if (buttonMouseArea1.containsPress) {
-                   return Qt.darker(baseColor)
-               } else if (buttonMouseArea1.containsMouse) {
-                       return Qt.lighter(baseColor)
-               } else {
-                   return baseColor
-               }
-
-        Text {
-            id: buttonText1
-
-            anchors.centerIn: parent
-
-            text: "CLICK ME!!"
-        }
-
-        MouseArea {
-            id: buttonMouseArea1
-
-            anchors.fill: parent
-
-            hoverEnabled: true
-
-            onClicked: {
-                console.log("I AM CLICKED")
-            }
-        }
+    MainWindow {
+        id: mainScreen
+        anchors.fill: parent
     }
+
 }
