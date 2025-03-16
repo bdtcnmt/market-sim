@@ -10,6 +10,8 @@
 	"INPUTS" : 
 	[
 		"C:/Users/Landorus/Desktop/market-sim/qml/Main.qml",
+		"C:/Users/Landorus/Desktop/market-sim/qml/SidePanel.qml",
+		"C:/Users/Landorus/Desktop/market-sim/qml/CustomMenuBar.qml",
 		"C:/Users/Landorus/Desktop/market-sim/qml/MainWindow.qml",
 		"C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListSimulator.qml",
 		"C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListModel.qml",

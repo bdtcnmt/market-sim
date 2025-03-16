@@ -2,15 +2,20 @@
 #define DATAFETCHER_H
 
 #include <QObject>
-#include <QString>
 
 class DataFetcher : public QObject {
     Q_OBJECT
 public:
     explicit DataFetcher(QObject *parent = nullptr);
 
-    // Expose a function to QML that fetches data given a symbol, timeframe, and API key.
-    Q_INVOKABLE QString fetchData(const QString &symbol, const QString &timeframe, const QString &apiKey);
+    // This method can be called from QML
+    Q_INVOKABLE void searchStock(const QString &symbol);
+
+signals:
+    // Emitted when data is successfully fetched.
+    void stockInfoReady(const QString &summary);
+    // Emitted when an error occurs.
+    void errorOccurred(const QString &error);
 };
 
 #endif // DATAFETCHER_H

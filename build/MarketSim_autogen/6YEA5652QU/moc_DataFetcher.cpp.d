@@ -1,7 +1,6 @@
 C:/Users/Landorus/Desktop/market-sim/build/MarketSim_autogen/6YEA5652QU/moc_DataFetcher.cpp: C:/Users/Landorus/Desktop/market-sim/include/DataFetcher.h \
   C:/Users/Landorus/Desktop/market-sim/build/MarketSim_autogen/moc_predefs.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
-  C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \

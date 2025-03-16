@@ -315,24 +315,49 @@ CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/chrono.h \
  C:/msys64/mingw64/include/c++/14.2.0/ratio \
  C:/msys64/mingw64/include/c++/14.2.0/ctime \
+ C:/Users/Landorus/Desktop/market-sim/include/api.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
- C:/Users/Landorus/Desktop/market-sim/include/api.h \
- C:/Users/Landorus/Desktop/market-sim/external/nlohmann_json/include/json.hpp \
- C:/msys64/mingw64/include/c++/14.2.0/forward_list \
- C:/msys64/mingw64/include/c++/14.2.0/bits/forward_list.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/forward_list.tcc \
- C:/msys64/mingw64/include/c++/14.2.0/valarray \
- C:/msys64/mingw64/include/c++/14.2.0/bits/valarray_array.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/valarray_array.tcc \
- C:/msys64/mingw64/include/c++/14.2.0/bits/valarray_before.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/slice_array.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/valarray_after.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/gslice.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/gslice_array.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/mask_array.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/indirect_array.h \
- C:/msys64/mingw64/include/c++/14.2.0/cassert \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonDocument \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsondocument.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsonvalue.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcborvalue.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcborcommon.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcontiguouscache.h \
+ C:/msys64/mingw64/include/c++/14.2.0/climits \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qset.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qhash.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qvarlengtharray.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/quuid.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qendian.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonObject \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsonobject.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonValue \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qjsonvalue.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QJsonParseError \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QProcess \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qprocess.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QFile \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qfiledevice.h \
  C:/msys64/mingw64/include/c++/14.2.0/filesystem \
  C:/msys64/mingw64/include/c++/14.2.0/bits/fs_fwd.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/fs_path.h \
@@ -363,4 +388,9 @@ CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/codecvt \
  C:/msys64/mingw64/include/c++/14.2.0/bits/fs_dir.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/fs_ops.h \
- C:/msys64/mingw64/include/c++/14.2.0/any
+ C:/Qt/6.8.2/mingw_64/include/QtCore/QDir \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdir.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qdirlisting.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qfileinfo.h \
+ C:/Qt/6.8.2/mingw_64/include/QtCore/qtimezone.h

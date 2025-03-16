@@ -1,13 +1,15 @@
 import QtQuick
-import QtQuick.Window
+import QtQuick.Controls
 import qml
 
-Window {
+ApplicationWindow {
     id: window
     visible: true
-    title: "UntitledProject5"
+    title: qsTr("Market Simulator")
 
     Component.onCompleted: window.showMaximized()
+
+    menuBar: CustomMenuBar {}
 
     MainWindow {
         id: mainScreen

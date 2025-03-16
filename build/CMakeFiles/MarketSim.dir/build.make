@@ -77,6 +77,8 @@ MarketSim_autogen/timestamp: CMakeFiles/MarketSim.dir/compiler_depend.ts
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/resources.qrc
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/MarketSim_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/Main.qml
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/SidePanel.qml
+MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/CustomMenuBar.qml
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/MainWindow.qml
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListSimulator.qml
 MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/Landorus/Desktop/market-sim/qml/UntitledProject5/EventListModel.qml

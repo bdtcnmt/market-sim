@@ -3,6 +3,7 @@
 #include <QQmlContext>
 #include <QSettings>
 #include <QDebug>
+#include <QDir>
 #include "DataFetcher.h"
 
 // Function to retrieve the API key using QSettings.
@@ -38,6 +39,11 @@ int main(int argc, char *argv[])
     // These lines make C++ objects and data available to QML as global properties.
     engine.rootContext()->setContextProperty("dataFetcher", &dataFetcher);
     engine.rootContext()->setContextProperty("defaultApiKey", apiKey);
+
+    // Expose the working directory so QML can locate dynamically generated files
+    QString workingDir = QDir::currentPath();
+    engine.rootContext()->setContextProperty("workingDir", workingDir);
+    qDebug() << "Working directory:" << workingDir;
 
     // Load the QML interface from the resource system.
     engine.load(QUrl(QStringLiteral("qrc:/qml/Main.qml")));

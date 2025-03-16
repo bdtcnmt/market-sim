@@ -38,11 +38,13 @@ struct qt_meta_tag_ZN11DataFetcherE_t {};
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN11DataFetcherE = QtMocHelpers::stringData(
     "DataFetcher",
-    "fetchData",
+    "stockInfoReady",
     "",
-    "symbol",
-    "timeframe",
-    "apiKey"
+    "summary",
+    "errorOccurred",
+    "error",
+    "searchStock",
+    "symbol"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -54,18 +56,26 @@ Q_CONSTINIT static const uint qt_meta_data_ZN11DataFetcherE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    1,   32,    2, 0x06,    1 /* Public */,
+       4,    1,   35,    2, 0x06,    3 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    3,   20,    2, 0x02,    1 /* Public */,
+       6,    1,   38,    2, 0x02,    5 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::QString,    5,
 
  // methods: parameters
-    QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    3,    4,    5,
+    QMetaType::Void, QMetaType::QString,    7,
 
        0        // eod
 };
@@ -79,10 +89,14 @@ Q_CONSTINIT const QMetaObject DataFetcher::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN11DataFetcherE_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<DataFetcher, std::true_type>,
-        // method 'fetchData'
-        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        // method 'stockInfoReady'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'errorOccurred'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'searchStock'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
     >,
     nullptr
@@ -93,9 +107,27 @@ void DataFetcher::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     auto *_t = static_cast<DataFetcher *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: { QString _r = _t->fetchData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 0: _t->stockInfoReady((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 1: _t->errorOccurred((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 2: _t->searchStock((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _q_method_type = void (DataFetcher::*)(const QString & );
+            if (_q_method_type _q_method = &DataFetcher::stockInfoReady; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _q_method_type = void (DataFetcher::*)(const QString & );
+            if (_q_method_type _q_method = &DataFetcher::errorOccurred; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
         }
     }
 }
@@ -119,15 +151,29 @@ int DataFetcher::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
+}
+
+// SIGNAL 0
+void DataFetcher::stockInfoReady(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void DataFetcher::errorOccurred(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 QT_WARNING_POP
