@@ -26,6 +26,7 @@ include_directories(
 set(SOURCES
     src/main.cpp
     ${CMAKE_SOURCE_DIR}/include/DataFetcher.h
+    ${CMAKE_SOURCE_DIR}/include/ChartGenerator.h
     src/DataFetcher.cpp
     src/api.cpp
     # src/display.cpp

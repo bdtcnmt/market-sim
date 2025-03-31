@@ -732,6 +732,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/phini/Desktop/market-sim/include/ChartGenerator.h",
+			"MU",
+			"6YEA5652QU/moc_ChartGenerator.cpp",
+			null
+		],
+		[
 			"C:/Users/phini/Desktop/market-sim/include/DataFetcher.h",
 			"MU",
 			"6YEA5652QU/moc_DataFetcher.cpp",

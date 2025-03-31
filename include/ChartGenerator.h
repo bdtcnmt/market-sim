@@ -7,6 +7,7 @@
 class ChartGenerator : public QObject
 {
     Q_OBJECT
+    
 public:
     explicit ChartGenerator(QObject *parent = nullptr);
 

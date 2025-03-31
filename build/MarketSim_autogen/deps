@@ -47,6 +47,7 @@ MarketSim_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+	C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -634,6 +635,7 @@ MarketSim_autogen/timestamp: \
 	C:/Users/phini/Desktop/market-sim/build/CMakeFiles/4.0.0-rc1/CMakeRCCompiler.cmake \
 	C:/Users/phini/Desktop/market-sim/build/CMakeFiles/4.0.0-rc1/CMakeSystem.cmake \
 	C:/Users/phini/Desktop/market-sim/build/MarketSim_autogen/moc_predefs.h \
+	C:/Users/phini/Desktop/market-sim/include/ChartGenerator.h \
 	C:/Users/phini/Desktop/market-sim/include/DataFetcher.h \
 	C:/Users/phini/Desktop/market-sim/resources.qrc \
 	C:/Users/phini/Desktop/market-sim/src/ChartGenerator.cpp \
