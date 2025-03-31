@@ -1,4 +1,5 @@
 #include "DataFetcher.h"
+#include "ChartGenerator.h"
 #include "api.h"  // This gives access to fetchStockData()
 #include <QString>
 #include <QJsonDocument>
@@ -60,9 +61,8 @@ void DataFetcher::searchStock(const QString &symbol)
             + "Last Updated: " + metaData.value("3. Last Refreshed").toString() + "\n"
             + "Last Close: " + closePrice + "\n";
 
-    // Optionally, you could save the raw JSON data to a temporary file for the Python script,
-    // or pass the relevant data via command-line arguments.
-    // Here, we'll assume the Python script is set up to read from a file called "data.json".
+    // save the raw JSON data to a file for the chart generator
+    QString dataFile = QDir::currentPath() + "/data.json";
     QFile file("data.json");
     if (file.open(QIODevice::WriteOnly)) {
         file.write(jsonStr.toUtf8());
@@ -71,25 +71,13 @@ void DataFetcher::searchStock(const QString &symbol)
         qWarning() << "Failed to write data.json file";
     }
 
-    QString currentPath = QDir::currentPath();
-    QString scriptPath = QDir(currentPath).filePath("../python/generate_chart.py");
-    qDebug() << "Python script path: " << scriptPath;
-
-    // Call a Python script to generate a graph. The script should read "data.json" and output "chart.png".
-    QProcess process;
-    // set the working directory to the directory containing the Python script
-    process.setWorkingDirectory(QDir::currentPath());
-    // adjust the path to your python interpreter and script location
-    QString pythonInterpreter = "C:\\Users\\Landorus\\AppData\\Local\\Programs\\Python\\Python312\\python.exe";
-    process.start(pythonInterpreter, QStringList() << scriptPath);
-    process.waitForFinished(); // consider running this asynchronously in production
-    
-    QString stdOut = process.readAllStandardOutput();
-    QString stdErr = process.readAllStandardError();
-
-    qDebug() << "Python process output:" << stdOut;
-    qDebug() << "Python process error:" << stdErr;
-
+    // use chartGenerator to generate the chart image
+    QString outputFile = QDir::currentPath() + "/chart.png";
+    ChartGenerator chartGenerator;
+    bool chartSuccess = chartGenerator.generateChart(dataFile, outputFile);
+    if (!chartSuccess) {
+        emit errorOccurred("Failed to generate chart");
+    }
 
     // emit the stock info (summary) signal
     emit stockInfoReady(summary);

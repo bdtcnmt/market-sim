@@ -29,6 +29,7 @@ set(SOURCES
     src/DataFetcher.cpp
     src/api.cpp
     # src/display.cpp
+    src/ChartGenerator.cpp
     resources.qrc
 )
 

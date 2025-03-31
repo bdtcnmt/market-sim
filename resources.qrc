@@ -4,9 +4,5 @@
         <file>qml/MainWindow.qml</file>
         <file>qml/CustomMenuBar.qml</file>
         <file>qml/SidePanel.qml</file>
-        <file>qml/UntitledProject5/Constants.qml</file>
-        <file>qml/UntitledProject5/EventListModel.qml</file>
-        <file>qml/UntitledProject5/EventListSimulator.qml</file>
-        <file>qml/UntitledProject5/qmldir</file>
     </qresource>
 </RCC>

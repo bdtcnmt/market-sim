@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MarketSim.dir/MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.obj.d"
   "CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/MarketSim.dir/src/ChartGenerator.cpp.obj"
+  "CMakeFiles/MarketSim.dir/src/ChartGenerator.cpp.obj.d"
   "CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.obj"
   "CMakeFiles/MarketSim.dir/src/DataFetcher.cpp.obj.d"
   "CMakeFiles/MarketSim.dir/src/api.cpp.obj"

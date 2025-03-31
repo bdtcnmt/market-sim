@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Landorus\Desktop\market-sim
+CMAKE_SOURCE_DIR = C:\Users\phini\Desktop\market-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Landorus\Desktop\market-sim\build
+CMAKE_BINARY_DIR = C:\Users\phini\Desktop\market-sim\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles C:\Users\Landorus\Desktop\market-sim\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles C:\Users\phini\Desktop\market-sim\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Landorus\Desktop\market-sim\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\market-sim\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -202,6 +202,30 @@ MarketSim_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.s
 .PHONY : MarketSim_autogen/mocs_compilation.cpp.s
 
+src/ChartGenerator.obj: src/ChartGenerator.cpp.obj
+.PHONY : src/ChartGenerator.obj
+
+# target to build an object file
+src/ChartGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/ChartGenerator.cpp.obj
+.PHONY : src/ChartGenerator.cpp.obj
+
+src/ChartGenerator.i: src/ChartGenerator.cpp.i
+.PHONY : src/ChartGenerator.i
+
+# target to preprocess a source file
+src/ChartGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/ChartGenerator.cpp.i
+.PHONY : src/ChartGenerator.cpp.i
+
+src/ChartGenerator.s: src/ChartGenerator.cpp.s
+.PHONY : src/ChartGenerator.s
+
+# target to generate assembly for a file
+src/ChartGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MarketSim.dir\build.make CMakeFiles/MarketSim.dir/src/ChartGenerator.cpp.s
+.PHONY : src/ChartGenerator.cpp.s
+
 src/DataFetcher.obj: src/DataFetcher.cpp.obj
 .PHONY : src/DataFetcher.obj
 
@@ -291,6 +315,9 @@ help:
 	@echo ... MarketSim_autogen/mocs_compilation.obj
 	@echo ... MarketSim_autogen/mocs_compilation.i
 	@echo ... MarketSim_autogen/mocs_compilation.s
+	@echo ... src/ChartGenerator.obj
+	@echo ... src/ChartGenerator.i
+	@echo ... src/ChartGenerator.s
 	@echo ... src/DataFetcher.obj
 	@echo ... src/DataFetcher.i
 	@echo ... src/DataFetcher.s
