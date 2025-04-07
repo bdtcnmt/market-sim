@@ -10,9 +10,10 @@
 	"INPUTS" : 
 	[
 		"C:/Users/phini/Desktop/market-sim/qml/Main.qml",
-		"C:/Users/phini/Desktop/market-sim/qml/SidePanel.qml",
-		"C:/Users/phini/Desktop/market-sim/qml/CustomMenuBar.qml",
-		"C:/Users/phini/Desktop/market-sim/qml/MainWindow.qml"
+		"C:/Users/phini/Desktop/market-sim/qml/InfoPanel.qml",
+		"C:/Users/phini/Desktop/market-sim/qml/Sidebar.qml",
+		"C:/Users/phini/Desktop/market-sim/qml/ChartView.qml",
+		"C:/Users/phini/Desktop/market-sim/qml/Dashboard.qml"
 	],
 	"LOCK_FILE" : "C:/Users/phini/Desktop/market-sim/build/CMakeFiles/MarketSim_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

@@ -50,6 +50,7 @@ MarketSim_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/Program\ Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake \
   C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -637,6 +638,7 @@ MarketSim_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   CMakeFiles/4.0.0-rc1/CMakeRCCompiler.cmake \
   CMakeFiles/4.0.0-rc1/CMakeSystem.cmake \
   MarketSim_autogen/moc_predefs.h \
+  C:/Users/phini/Desktop/market-sim/include/ChartGenerator.h \
   C:/Users/phini/Desktop/market-sim/include/DataFetcher.h \
   C:/Users/phini/Desktop/market-sim/resources.qrc \
   C:/Users/phini/Desktop/market-sim/src/ChartGenerator.cpp \
@@ -1135,6 +1137,8 @@ C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:
 
 C:/Qt/6.8.2/mingw_64/include/QtCore/QObject:
 
+C:/Qt/6.8.2/mingw_64/include/QtCore/QString:
+
 C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h:
 
 C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h:
@@ -1631,9 +1635,9 @@ C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.c
 
 C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake:
 
-C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake:
-
 C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginTargets-relwithdebinfo.cmake:
+
+C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake:
 
 C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake:
 
@@ -2325,6 +2329,10 @@ CMakeFiles/4.0.0-rc1/CMakeSystem.cmake:
 
 MarketSim_autogen/moc_predefs.h:
 
+C:/msys64/mingw64/include/process.h:
+
+C:/Users/phini/Desktop/market-sim/include/ChartGenerator.h:
+
 C:/Users/phini/Desktop/market-sim/include/DataFetcher.h:
 
 C:/Users/phini/Desktop/market-sim/resources.qrc:
@@ -2526,8 +2534,6 @@ C:/msys64/mingw64/include/corecrt_stdio_config.h:
 C:/msys64/mingw64/include/ctype.h:
 
 C:/msys64/mingw64/include/limits.h:
-
-C:/msys64/mingw64/include/process.h:
 
 C:/msys64/mingw64/include/pthread.h:
 

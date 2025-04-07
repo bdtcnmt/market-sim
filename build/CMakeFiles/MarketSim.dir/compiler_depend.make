@@ -858,6 +858,7 @@ CMakeFiles/MarketSim.dir/MarketSim_autogen/EWIEGA46WW/qrc_resources.cpp.obj: Mar
 
 CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj: MarketSim_autogen/mocs_compilation.cpp \
   C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -958,6 +959,7 @@ CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj: MarketSim_a
   C:/Qt/6.8.2/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.2/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Users/phini/Desktop/market-sim/include/ChartGenerator.h \
   C:/Users/phini/Desktop/market-sim/include/DataFetcher.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
@@ -1178,6 +1180,7 @@ CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj: MarketSim_a
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  MarketSim_autogen/6YEA5652QU/moc_ChartGenerator.cpp \
   MarketSim_autogen/6YEA5652QU/moc_DataFetcher.cpp
 
 CMakeFiles/MarketSim.dir/src/ChartGenerator.cpp.obj: C:/Users/phini/Desktop/market-sim/src/ChartGenerator.cpp \
@@ -4883,6 +4886,8 @@ C:/msys64/mingw64/include/in6addr.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
 
 C:/msys64/mingw64/include/mmeapi.h:
+
+MarketSim_autogen/6YEA5652QU/moc_ChartGenerator.cpp:
 
 C:/Qt/6.8.2/mingw_64/include/QtCore/QDebug:
 
