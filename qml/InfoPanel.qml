@@ -1,11 +1,11 @@
+// InfoPanel.qml
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Rectangle {
     color: "white"
     height: 100
-    anchors.left: parent.left
-    anchors.right: parent.right
+    radius: 10 // this makes the corners rounded
 
     Row {
         anchors.centerIn: parent

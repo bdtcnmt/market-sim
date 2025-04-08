@@ -1,7 +1,7 @@
 CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj: \
- C:\Users\phini\Desktop\market-sim\build\MarketSim_autogen\mocs_compilation.cpp \
- C:\Users\phini\Desktop\market-sim\build\MarketSim_autogen\6YEA5652QU/moc_ChartGenerator.cpp \
- C:/Users/phini/Desktop/market-sim/include/ChartGenerator.h \
+ C:\Users\Landorus\Desktop\market-sim\build\MarketSim_autogen\mocs_compilation.cpp \
+ C:\Users\Landorus\Desktop\market-sim\build\MarketSim_autogen\6YEA5652QU/moc_ChartGenerator.cpp \
+ C:/Users/Landorus/Desktop/market-sim/include/ChartGenerator.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QObject \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
@@ -319,5 +319,5 @@ CMakeFiles/MarketSim.dir/MarketSim_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.2/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\phini\Desktop\market-sim\build\MarketSim_autogen\6YEA5652QU/moc_DataFetcher.cpp \
- C:/Users/phini/Desktop/market-sim/include/DataFetcher.h
+ C:\Users\Landorus\Desktop\market-sim\build\MarketSim_autogen\6YEA5652QU/moc_DataFetcher.cpp \
+ C:/Users/Landorus/Desktop/market-sim/include/DataFetcher.h

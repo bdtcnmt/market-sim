@@ -2,28 +2,24 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
-import "qrc:/qml"
 
-Rectangle {
-    color: "#f0f2f5"
+Item {
+    anchors.fill: parent
 
-    RowLayout {
+    // parent container provide the padding
+    ColumnLayout {
         anchors.fill: parent
+        spacing: 10 // controls gap between ChartView and InfoPanel
 
-        // Sidebar on the left (dark)
-        Sidebar {
-            Layout.preferredWidth: 250
-            // Remove anchors.fill: parent from Sidebar.qml if present
-        }
-
-        // Main area on the right (light)
-        ColumnLayout {
-            spacing: 10
+        // ChartView: The chart takes up all available space.
+        ChartView {
             Layout.fillWidth: true
             Layout.fillHeight: true
+        }
 
-            ChartView { Layout.fillWidth: true }
-            InfoPanel { Layout.fillWidth: true }
+        InfoPanel {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 100
         }
     }
 }

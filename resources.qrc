@@ -4,6 +4,7 @@
         <file>qml/InfoPanel.qml</file>
         <file>qml/Dashboard.qml</file>
         <file>qml/Sidebar.qml</file>
+        <file>qml/SearchField.qml</file>
         <file>qml/ChartView.qml</file>
     </qresource>
 </RCC>
